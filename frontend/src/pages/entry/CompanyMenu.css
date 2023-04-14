@@ -1,0 +1,13 @@
+.companymenu{
+    color: black;
+    width: 150px;
+    text-align: center;
+
+}
+.companymenu a{
+    color: black;
+}
+.companymenu a p{
+    color: black;
+    font-size: 1rem;
+}

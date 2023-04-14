@@ -1,0 +1,28 @@
+.cartAllItem{
+    display: flex;
+    gap: 1.5rem;
+}
+.cartAllItem p{
+    width:110px;
+    font-weight: 600;
+    /* background-color:red */
+}
+.cartAllItem span{
+    width:50px;
+    font-weight: 400;
+    /* background-color: yellow; */
+    text-align: center;
+}
+.cartAllItemImg{
+    width:30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 30%;
+}
+.cartAllItem button{
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

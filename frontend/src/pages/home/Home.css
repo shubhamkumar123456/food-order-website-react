@@ -1,0 +1,82 @@
+
+.Home{
+    width: 100vw;
+    height: 100vh;
+}
+.HomeNav{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.HomeTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+   height: 100%;
+   width: 100%;
+    margin:3rem 0;
+    /* background-color: green; */
+}
+.main-content{
+    width: 1300px;
+    font-size: 2.5rem;
+}
+.main-content p{
+    width: 1000px;
+    font-size: 1.5rem;
+}
+
+.main-pic{
+    margin: 1rem;
+    margin-right: 2rem;
+   width: 40rem;
+
+}  
+.main-picDiv{
+    position: relative;
+}
+.main-pic img{
+    height: 25rem;
+    width: 25rem;
+    object-fit: cover;
+    position:sticky;
+    right: 0;
+   
+}
+
+.main-picDiv::after{
+    content: '';
+    position: absolute;
+    top: 1rem;
+    right: 4.5rem;
+    background-color: #f7ca3e;
+    z-index: 5;
+    border-radius: 3rem;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    height: 22rem;
+    width: 22rem;
+    z-index: -1;
+    -webkit-animation: animation 1s linear;
+    animation: animation 2s infinite linear;
+}
+@keyframes animation {
+    0%{
+        -webkit-transform: rotate(360deg) ;
+        transform: rotate(360deg);
+    }
+    100%{
+        -webkit-transform: rotate(0deg) ;
+        transform: rotate(0deg);
+    }
+  
+}
+.HomeFoodAllItems{
+    display: grid;
+    grid-template-columns: repeat(5,300px);
+   
+}

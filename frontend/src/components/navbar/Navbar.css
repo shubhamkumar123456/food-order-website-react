@@ -1,0 +1,75 @@
+/* .navbar{
+    background-color:pink ;
+    color: black;
+} */
+.navbar{
+    height: 5rem;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+    box-shadow: 0 0 10px 2px grey ;
+    background-color: white;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 123; */
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    padding-top: 10px;
+    /* background-color: #EE6352; */
+}
+.logo img{
+    width: 100px;
+    height: 60px;
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+}
+
+.links a{
+    color: black;
+    text-decoration: none;
+    margin-right: 1.5rem;
+    list-style: none;
+    position: relative;
+    font-size: 1.3rem;
+}
+.links a::after{
+    content: '';
+   height: 4px;
+   position: absolute;
+   width: 0;
+   left: 0;
+   bottom: -8px;
+  
+   background-color: #EE6352;
+   transition: 0.5s linear;
+
+}
+.links a:hover::after{
+    width: 100%;
+ }
+ .seachBarDiv{
+    width: 25%;
+ }
+ .searchBar{
+width: 100%;
+border-radius: 20px;
+padding-left: 2rem;
+ }
+ .seachBarDiv{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.seachBarDiv i{
+    position:absolute;
+    left: 10px;
+}
