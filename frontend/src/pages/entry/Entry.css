@@ -1,7 +1,6 @@
 .entryImgDiv{
     width: 100vw;
-    height: 100vh;
-  
+    height: 100vh; 
 }
 .entryImgDiv img{
   width: 100%;
@@ -12,6 +11,7 @@
     position:absolute;
     top: 1.5rem;
     right: 22rem;
+    background-color: red;
 }
 .entryDivLinks ul{
     display: flex;
@@ -19,6 +19,7 @@
     list-style: none;
     text-decoration: none;
     font-weight:400;
+    background-color: red;
 }
 .entryDivLinks ul a,.Link{
     text-decoration: none;
@@ -32,6 +33,7 @@
     text-align: center;
     left: 30%;
     color: white;
+    background-color: red;
 }
 .entryDivContent h1{
 font-size: 4rem;
@@ -58,7 +60,7 @@ font-style: italic;
         top: 1.5rem;
         right:1rem;
         width: 400px;
-        /* background-color: red; */
+      
     }
     .entryDivContent{
     
@@ -89,5 +91,15 @@ font-style: italic;
         top: 1.5rem;
         right:0;
         left: 0;
+       
+    }
+    .entryImgDiv img{
+        object-fit:cover;
+        width: 100%;
+
+    }
+    .entryImgDiv{
+        width: 400px;
+        height: 100vh; 
     }
 }
