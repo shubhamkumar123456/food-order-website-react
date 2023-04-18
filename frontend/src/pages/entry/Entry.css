@@ -1,7 +1,7 @@
 .entryImgDiv{
-    width: 1519px;
+    width: 100vw;
     height: 100vh;
-    position: relative;
+  
 }
 .entryImgDiv img{
   width: 100%;
@@ -36,4 +36,58 @@
 .entryDivContent h1{
 font-size: 4rem;
 font-style: italic;
+}
+
+@media (max-width: 1120px){
+    .entryImgDiv .entryDivLinks{
+        position:absolute;
+        top: 1.5rem;
+        right:20rem
+    }
+    .entryDivContent{
+        position: absolute;
+        top: 45%;
+        text-align: center;
+        left: 25%;
+        color: white;
+    }
+}
+@media (max-width: 776px){
+    .entryImgDiv .entryDivLinks{
+        position:absolute;
+        top: 1.5rem;
+        right:1rem;
+        width: 400px;
+        /* background-color: red; */
+    }
+    .entryDivContent{
+    
+        position: absolute;
+        right: 500rem;
+        color: white;
+        /* background-color: red; */
+      left: 20%;
+        width: 60%;
+    }
+}
+@media (max-width: 404px){
+    .entryImgDiv .entryDivLinks{
+        position:absolute;
+        top: 1.5rem;
+        right:0;
+        left: 0;
+    }
+}
+@media (max-width: 383px){
+    .entryImgDiv .entryDivLinks ul{
+        position:absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right:30px;
+        top: 1.5rem;
+        right:0;
+        left: 0;
+    }
 }

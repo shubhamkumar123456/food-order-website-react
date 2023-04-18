@@ -103,7 +103,10 @@ const CompanyHome = () => {
 
   return (
     <div className="companyHomeFlex">
-      <h1 style={{textAlign:"center", fontStyle:"italic",fontWeight:"5rem",background:"grey",padding:"0.5rem"}}>Food Delight</h1>
+      <div className="companyHomeFlextitle">
+      <h1 style={{fontStyle:"italic"}}>Food Delight</h1>
+      <img src="/images/logo.jpeg" alt="" />
+      </div>
       <h4 style={{textAlign:"center", fontStyle:"italic"}}>Add your restaurant Foods here</h4>
       <div className="companyHome">
        
